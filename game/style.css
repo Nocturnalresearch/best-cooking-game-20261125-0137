@@ -1,0 +1,35 @@
+/* Ember Skillet — page shell. The game itself is drawn on the canvas. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #140c06;
+}
+
+body {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: #ffe9c4;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: min(1280px, 100vw);
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #4a2c1c;
+}
+
+#selftest {
+  padding: 6px 10px;
+  font-size: 12px;
+  color: #8a6a4a;
+}
